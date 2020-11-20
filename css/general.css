@@ -149,18 +149,6 @@ footer .right form input {
         flex-wrap: wrap;
     }
     
-    nav h1 {
-        
-    }
-    
-    nav #logo {
-        height: 100%;
-    }
-    
-    nav ul {
-        
-    }
-    
     nav ul li {
         font-size: 1rem;
     }
