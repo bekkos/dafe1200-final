@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Fruitly - Reducing waste</title>
+</head>
+<body>
+    <nav>
+        <img src="./images/logo.png" id="logo" alt="">
+        <ul>
+            <li><a href="./index.html">Mission</a></li>
+            <li><a href="./about.html">Solution</a></li>
+            <li><a href="./privacy.html">About us</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="section s-one">
+        <section class="wrapper">
+            <!-- Frequently Asked Questions her på toppen kanskje? Også contact form på den grønne siden -->
+            <!-- Jeg ville brukt dette formatet kanskje: -->
+            <section class="qa-container">
+                <h2>Q: Eksempel spørsmål?</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Quibusdam molestiae error aspernatur beatae iure dicta voluptate dolorum. 
+                    Repellat nisi odio reiciendis suscipit consectetur placeat dolorum eveniet.
+                </p>
+            </section>
+        </section>
+    </section>
+    <section class="section s-two">
+        <!-- Content i den andre seksjonen inn her -->
+        <section class="wrapper">
+            <section class="left">
+                <!-- Setter opp formen så den får funksjon -->
+                <!-- Inputs er allerede stylet i general.css for å få universiell stil -->
+                <!-- lager contact formen så den oppfyller kravene til WCAG AAA -->
+                <form action="contact2.html" autocomplete="off">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="" required>
+                    <br><br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="" required>
+                    <br><br>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="" id="message" palceholder="" id="" required></textarea>
+                    <br><br>
+                    <input type="submit" name="Send Message" id="button" value="Send Message">
+                </form>
+            </section>
+            <section class="right">
+                <!-- Her kan vi ha et bilde kanskje, det ligger et bilde i ./images mappen som heter "system-illustration.png" som jeg tror kan passe bra her. opp til deg -->
+            </section>
+        </section>
+    </section>
+
+    <footer>
+        <section class="left">
+            <form action="">
+                <input type="submit" value="SOURCES &#128279;">
+            </form>
+        </section>
+        <section class="middle">
+            <p>&copy; 2020 Fruitly!</p>
+        </section> 
+        <section class="right">
+            <form action="https://sdgs.un.org/goals/goal12" target="_blank">
+                <input type="submit" value="SDGS-12 &#128279;">
+            </form>
+        </section> 
+    </footer>
+</body>
+</html>
