@@ -32,14 +32,12 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    line-height: 22px;
 }
 
 .qa-container h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5rem;
     text-align: left;
-    margin-top: 1.5em;
 }
 
 .qa-container p {
@@ -53,8 +51,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #cceabb;
-   
+    background-color: #cceabb;  
 }
 
 .s-two .wrapper {
@@ -84,18 +81,7 @@
     height: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
-}
-
-/* Arrow */
-.s-dwn-arrw{
-    position: absolute;
-    height: 15px;
-    width: 15px;
-    border-top: 7px solid black;
-    border-left: 7px solid black;
-    transform: rotate(225deg);
-    margin-left: 50%;
-    
+    padding: 0 6px;
 }
 
 .s-two .wrapper .left form textarea {
@@ -103,16 +89,7 @@
     height: 130px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
-}
-
-/* Image */
-.myimg{
-width: 40%
-}
-/* No resize på text area*/
-textarea{
-    resize: none;
-    padding: 5px;
+    padding: 0 6px;
 }
 
 #button {
@@ -135,38 +112,4 @@ textarea{
     width: 50%;
     height: 70%;
 }
-
-
-/* Utforming av responsivness*/
-
-@media only screen and (max-width: 300px) {
-
-    
-
-}
-
-@media only screen and (max-width: 600px) {
-    
-    
- 
-
-}
-
-
-@media only screen and (max-width: 992px) {
-
-    
-    
-
-}
-
-@media only screen and (max-width: 1200px) {
- 
-
-}
-
-
-
-
-
 
