@@ -154,7 +154,7 @@ body {
     }
 
     .section-one .wrapper .arrow {
-        width: 20vw;
+        width: 130px;
         
     }
 
@@ -169,7 +169,7 @@ body {
     }
 
     .section-two .wrapper .arrow {
-        width: 20vw;
+        width: 130px;
     }
 
     /* Section Three */
@@ -203,7 +203,7 @@ body {
     }
 
     .section-one .wrapper .arrow {
-        width: 10vw;
+        width: 130px;
         
     }
 
@@ -228,7 +228,7 @@ body {
     }
 
     .section-two .wrapper .arrow {
-        width: 10vw;
+        width: 130px;
         left: 45%;
     }
 
@@ -267,13 +267,13 @@ body {
     }
 
     .section-one .wrapper img {
-        width: 50%;
+        width: 30%;
         margin: auto;
         display: block;
     }
 
     .section-one .wrapper .arrow {
-        width: 10vw;
+        width: 130px;
         
     }
 
@@ -287,18 +287,28 @@ body {
         
     }
 
+    .section-two img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 60vw;
+        max-height: 55%;
+        object-fit: contain;
+        z-index: 1;
+    }
+
     .section-two .wrapper h2 {
         font-size: 2.3rem;
     }
 
     .section-two .wrapper p {
-        width: 80%;
+        width: 60%;
         margin: auto;
         font-size: 1.3rem;
     }
 
     .section-two .wrapper .arrow {
-        width: 10vw;
+        width: 130px;
         left: 45%;
     }
 
@@ -316,7 +326,7 @@ body {
     }
 
     .section-three .wrapper p {
-        width: 80%;
+        width: 60%;
         margin: auto;
         font-size: 1.3rem;
     }
@@ -330,3 +340,4 @@ body {
         bottom: 0;
     }
 }
+
