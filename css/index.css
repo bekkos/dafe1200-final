@@ -11,15 +11,12 @@ body {
     width: 80%;
     height: 100%;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+    padding-top: 17vh;
 }
 
 .section-one .wrapper img {
-    width: 90%;
+    width: 100%;
+    margin: auto;
 }
 
 .section-one .wrapper h1 {
@@ -33,9 +30,9 @@ body {
 }
 
 .section-one .wrapper .arrow {
-    width: 30%;
+    width: 30vw;
     margin: 35px auto;
-    
+    display: block;
 }
 
 .section-two {
@@ -50,11 +47,6 @@ body {
     width: 80%;
     height: 100%;
     margin: auto;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .section-two .wrapper h2 {
@@ -78,8 +70,9 @@ body {
 .section-two .wrapper .arrow {
     width: 30%;
     z-index: 2;
-    position: relative;
-    margin-top: 220px;
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
 }
 
 .section-two img {
