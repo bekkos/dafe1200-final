@@ -69,7 +69,11 @@ body {
     min-height: 100%;
     height: auto;
     background-color: #36454F;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .section-two .wrapper {
@@ -77,6 +81,11 @@ body {
     height: 100%;
     margin: auto;
     padding-top: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .section-two .wrapper h2 {
@@ -98,22 +107,10 @@ body {
 }
 
 .section-two .wrapper .arrow {
-    width: 30%;
-    z-index: 2;
-    position: absolute;
-    bottom: 20px;
-    left: 40%;
+    width: 130px;
+    margin-top: 17vh;
 }
 
-.section-two img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 60vw;
-    max-height: 40%;
-    object-fit: contain;
-    z-index: 1;
-}
 
 .section-three {
     width: 100%;
@@ -212,7 +209,7 @@ body {
     }
 
     .section-two .wrapper .arrow {
-        width: 130px;
+        
     }
 
     /* Section Three */
@@ -269,8 +266,7 @@ body {
     }
 
     .section-two .wrapper .arrow {
-        width: 130px;
-        left: 45%;
+        
     }
 
     /* Section Three */
@@ -327,15 +323,6 @@ body {
         
     }
 
-    .section-two img {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        width: 60vw;
-        max-height: 55%;
-        object-fit: contain;
-        z-index: 1;
-    }
 
     .section-two .wrapper h2 {
         font-size: 2.3rem;
@@ -348,8 +335,7 @@ body {
     }
 
     .section-two .wrapper .arrow {
-        width: 130px;
-        left: 46.5%;
+        
     }
 
     /* Section Three */
@@ -406,9 +392,6 @@ body {
     }
 
     .section-two .wrapper .arrow {
-        width: 130px;
-        left: 46.5%;
-        display: block;
     }
 
     .section-three {
