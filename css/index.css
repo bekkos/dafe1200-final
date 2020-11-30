@@ -383,5 +383,37 @@ body {
     }
 }
 
+/* Only for IE */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .section-two {
+        height: auto;
+        min-height: auto;
+    }
 
+    .section-two .wrapper {
+        height: auto;
+        min-height: auto;
+        padding: 17vh;
+    }
+
+    .section-two img {
+        display: none;
+    }
+
+    .section-two .wrapper .arrow {
+        width: 130px;
+        left: 46.5%;
+        display: block;
+    }
+
+    .section-three {
+        height: auto;
+        min-height: auto;
+    }
+
+    .section-three .wrapper {
+        height: auto;
+        min-height: auto;
+    }
+ }
 
