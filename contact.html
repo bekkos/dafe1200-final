@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruitly - Reducing food waste!</title>
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <nav>
+        <img src="./images/logo.png" alt="The company logo, depicting a basket of fruit.">
+        <ul>
+            <li><a href="./index.html">Mission</a></li>
+            <li><a href="./solution.html">Solution</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="section-one">
+        <section class="wrapper">
+            <h1>Want to get in touch?</h1>
+            <p>Send us a message!</p>
+            <form action="contact2.html" autocomplete="off">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="name" placeholder="" required>
+                <br><br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" placeholder="" required>
+                <br><br>
+                <label for="message">Message</label>
+                <br>
+                <textarea name="" id="message" palceholder="" id="" required></textarea>
+                <br><br>
+                <input type="submit" name="Send Message" id="button" value="Send Message">
+            </form>
+            <a href="#s2"><img src="./images/scroll.png" class="arrow" alt="Scroll Down"></a>
+        </section>    
+    </section>
+    
+    <section class="section-two" id="s2">
+        <section class="wrapper">
+            <h2>You can also reach us at:</h2>
+            <p>
+                <b>Phone: </b> +47 12341234
+                <br><br>
+                <b>Email: </b> support@fruitly.com
+                <br><br>
+                <b>Address: </b> Gateveien 47, 0850 Oslo 
+            </p>
+            <!-- <img src="./images/menu-map.png" alt="Picture showing some of the interface in the app."> -->
+            <a href="#s3"><img src="./images/scroll.png" class="arrow" alt="Scroll Down"></a>
+        </section> 
+    </section>
+
+    <section class="section-three" id="s3">
+        <section class="wrapper">
+            <h3>Sources, Privacy and FAQ's</h3>
+            <!-- <p>
+                If you would like to know where we get our statistics from and what
+                data the Fruitly app collects follow the link below.
+            </p> -->
+            <form action="solution.html">
+                <input type="submit" name="Learn About Sources, Data and FAQ's" value="Learn About Sources, Data and FAQ's">
+            </form>
+        </section>
+        <img src="./images/tomato-flipped.png" alt="A cropped image of tomatoes.">
+        <img src="./images/tom.jpg" id="large-img" alt="An un-cropped image of tomatoes.">
+    </section>
+</body>
+</html>
