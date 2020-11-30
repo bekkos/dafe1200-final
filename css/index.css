@@ -1,77 +1,16 @@
-.section {
+body {
+    background-color: #3B3C36;
+}
+
+.section-one {
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
-.s-one {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #fff;
-}
-
-.s-one .wrapper {
-    width: 85%;
+.section-one .wrapper {
+    width: 80%;
     height: 100%;
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.s-one .wrapper .left {
-    width: 70%;
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.s-one .wrapper .left h3 {
-    font-family: 'Josefin Sans', sans !important;
-    font-size: 3rem;
-}
-
-
-.s-one .wrapper .left span {
-    font-family: 'Josefin Sans', sans !important;
-    font-size: 3rem;
-    color: #045B01;
-}
-
-.s-one .wrapper .right {
-    width: 29%;
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.s-one .wrapper .right img {
-    width: 70%;
-    object-fit: cover;
-}
-
-
-.s-two {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #cceabb;  
-}
-
-.s-two .wrapper {
-    width: 85%;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.s-two .wrapper .left {
-    width: 50%;
-    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,38 +18,118 @@
     flex-direction: column;
 }
 
-.s-two .wrapper .left h3 {
-    font-family: 'Josefin Sans', sans !important;
-    font-size: 3rem;
+.section-one .wrapper img {
+    width: 100%;
 }
 
-.s-two .wrapper .left p {
-    text-align: center;
-}
-
-.s-two .wrapper .left span {
-    color: #800A0A;
-}
-
-
-.s-two .wrapper .right {
-    width: 50%;
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.s-two .wrapper .right h3 {
-    font-family: 'Josefin Sans', sans !important;
+.section-one .wrapper h1 {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 2rem;
+    font-weight: 300;
     text-align: center;
-    margin-bottom: 3vh;
+    margin-bottom: 30px;
+    line-height: 50px;
+    color: white;
 }
 
-.s-two .wrapper .right img {
-    width: 100%;
-    object-fit: cover;
+.section-one .wrapper .arrow {
+    width: 30%;
+    margin: 35px auto;
+    
 }
+
+.section-two {
+    width: 100%;
+    height: 80%;
+    padding-top: 50px;
+    background-color: #36454F;
+    position: relative;
+}
+
+.section-two .wrapper {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.section-two .wrapper h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.section-two .wrapper p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.section-two .wrapper .arrow {
+    width: 30%;
+    z-index: 2;
+    position: relative;
+    margin-top: 330px;
+}
+
+.section-two img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    z-index: 1;
+}
+
+.section-three {
+    width: 100%;
+    height: 80%;
+    padding-top: 50px;
+    background-color: #1A1110;
+    position: relative;
+}
+
+.section-three .wrapper {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.section-three .wrapper h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.section-three .wrapper p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.section-three img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+

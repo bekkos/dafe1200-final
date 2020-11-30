@@ -1,0 +1,84 @@
+.section {
+    width: 100%;
+    height: auto;
+    min-height:100%;
+}
+
+.s-one {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+}
+
+.s-one .wrapper {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.s-one .wrapper img  {
+    width: 65%;
+    height: 50vh;
+    margin-top: 130px;
+    object-fit: cover;
+}
+
+.s-one .wrapper h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    margin-top: 3vh;
+}
+
+.s-one .wrapper p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-top: 3vh;
+    width: 65%;
+}
+
+.s-one .wrapper .box-container {
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.s-one .wrapper .box-container img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+.s-two {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cceabb;  
+}
+
+.s-two .wrapper {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.s-two .wrapper .left {
+    width: 50%;
+    height: 70%;
+}
+
+.s-two .wrapper .right {
+    width: 50%;
+    height: 70%;
+}

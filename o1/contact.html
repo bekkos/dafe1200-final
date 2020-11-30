@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Fruitly - Reducing waste</title>
+</head>
+<body>
+    <nav>
+        <img src="./images/logo.png" id="logo" alt="">
+        <ul>
+            <li><a href="./index.html">Mission</a></li>
+            <li><a href="./about.html">Solution</a></li>
+            <li><a href="./privacy.html">About us</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="section s-one">
+        <section class="wrapper">
+            <!-- Frequently Asked Questions her på toppen kanskje? Også contact form på den grønne siden. -->
+            <!-- Er enig i det formatet det er nå - Ersan -->
+            <!-- Jeg ville brukt dette formatet kanskje: -->
+            <section class="qa-container">
+                <h2>Q: How does it work?</h2>
+                <p> We collaborate with crocery actors around the country. 
+                    Fruit and vegetables come to our warehouse from these stores, and get sent to our warehouse.  
+                    When you order from our app, we send out our best fruits and vegetables to you in a package.
+                </p>
+                <h2>Q: Where can i download the app?</h2>
+                <p>
+                    You can download the app on the App store on the iPhone and play store on android!
+                </p>
+                
+                <h2>Q: What happens after the download?</h2>
+                <p>
+                    After downloading the app on your respected phone. 
+                    Open the app and click “create an account”. 
+                    After making your account, you can order fruit and vegetable to your address.  
+                </p>
+                <h2>Q: Where do you ship? </h2>
+                <p>
+                    We ship all across the country.
+                    We use a variety of different shipping actors.
+                    We rely on fast shipping so that the fruit doesnt go bad.
+                    Thats why we always send "same day delivery" or "next day delivery".  
+                    
+                </p>
+                  <h2>Q: Is it safe to eat? </h2>
+                <p>
+                    We set strict requirements in the handling and delivery of fruit and vegetables in our distribution.
+                    We are obliged to follow laws and regulations within edibility and food safety.
+                    Therefore, we ensure that the food we receive is tested and complies with the regulations so that it is safe to eat
+                </p>
+                
+            </section>
+        </section>
+        <!--Arrow her-->
+        <section class="s-dwn-arrw">
+        </section>
+    </section>
+    <section class="section s-two">
+        <!-- Content i den andre seksjonen inn her -->
+        <section class="wrapper">
+            <section class="left">
+                <!-- Setter opp formen så den får funksjon -->
+                <!-- Inputs er allerede stylet i general.css for å få universiell stil -->
+                <!-- lager contact formen så den oppfyller kravene til WCAG AAA -->
+               
+                <form action="contact2.html" autocomplete="off">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="" required>
+                    <br><br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="" required>
+                    <br><br>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="" id="message" palceholder="" id="" required></textarea>
+                    <br><br>
+                    <input type="submit" name="Send Message" id="button" value="Send Message">
+                </form>
+            </section>
+            <!--Bilde her. Måtte resize det til 634 x 337 for å få det til å passe med nettside-->
+            <section class="myimg">
+                <img src="./images/system-illustration.png" width="100%">
+            </section>
+        </section>
+    </section>
+
+    <footer>
+        <section class="left">
+            <form action="">
+                <input type="submit" value="SOURCES &#128279;">
+            </form>
+        </section>
+        <section class="middle">
+            <p>&copy; 2020 Fruitly!</p>
+        </section> 
+        <section class="right">
+            <form action="https://sdgs.un.org/goals/goal12" target="_blank">
+                <input type="submit" value="SDGS-12 &#128279;">
+            </form>
+        </section> 
+    </footer>
+</body>
+</html>

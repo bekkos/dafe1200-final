@@ -1,0 +1,59 @@
+.section {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+
+.s-one {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+}
+
+.s-one .wrapper {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.s-one .wrapper .left {
+    width: 70%;
+    height: 70%;
+}
+
+.s-one .wrapper .right {
+    width: 29%;
+    height: 70%;
+}
+
+
+
+.s-two {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cceabb;  
+}
+
+.s-two .wrapper {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.s-two .wrapper .left {
+    width: 50%;
+    height: 70%;
+}
+
+.s-two .wrapper .right {
+    width: 50%;
+    height: 70%;
+}

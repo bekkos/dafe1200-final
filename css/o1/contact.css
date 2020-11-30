@@ -1,0 +1,172 @@
+.section {
+    width: 100%;
+    height:100%;
+}
+
+.s-one {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    height: auto !important;
+    min-height: 100%;
+}
+
+.s-one .wrapper {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    padding-top: 150px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/* QA-Container */
+.qa-container {
+    width: 45%;
+    height: auto;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 22px;
+}
+
+.qa-container h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 1.5em;
+}
+
+.qa-container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.s-two {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cceabb;
+   
+}
+
+.s-two .wrapper {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.s-two .wrapper .left {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-two .wrapper .left form {
+    width: 80%;
+    margin: auto;
+}
+
+.s-two .wrapper .left form input {
+    width: 80%;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Arrow */
+.s-dwn-arrw{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-top: 7px solid black;
+    border-left: 7px solid black;
+    transform: rotate(225deg);
+    margin-left: 50%;
+    
+}
+
+.s-two .wrapper .left form textarea {
+    width: 80%;
+    height: 130px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Image */
+.myimg{
+width: 40%
+}
+/* No resize på text area*/
+textarea{
+    resize: none;
+    padding: 5px;
+}
+
+#button {
+    background-color: #fdcb9e;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #3f3f44;
+    padding: 0 4px;
+    width: 200px;
+}
+
+#button:hover {
+    background-color: #f7a35b;
+}
+
+.s-two .wrapper .right {
+    width: 50%;
+    height: 70%;
+}
+
+
+/* Utforming av responsivness*/
+
+@media only screen and (max-width: 300px) {
+
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    
+ 
+
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    
+    
+
+}
+
+@media only screen and (max-width: 1200px) {
+ 
+
+}
+
+
+
+
+
+
