@@ -2,6 +2,12 @@ body {
     background-color: #3B3C36;
 }
 
+.arrow {
+    animation-name: arrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
 .section-one {
     width: 100%;
     min-height: 100%;
@@ -340,4 +346,6 @@ body {
         bottom: 0;
     }
 }
+
+
 
