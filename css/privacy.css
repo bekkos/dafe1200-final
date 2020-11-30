@@ -25,6 +25,8 @@ body {
     padding-top: 17vh;
 }
 
+
+
 .section-one .wrapper form {
     width: 90%;
     margin: auto;
@@ -69,7 +71,7 @@ body {
 
 .section-one .wrapper p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 300;
     text-align: center;
     margin-bottom: 30px;
