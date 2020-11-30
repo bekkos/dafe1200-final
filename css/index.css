@@ -8,6 +8,10 @@ body {
     animation-iteration-count: infinite;
 }
 
+#large-img {
+    display: none;
+}
+
 .section-one {
     width: 100%;
     min-height: 100%;
@@ -26,6 +30,11 @@ body {
     margin: auto;
 }
 
+#phones {
+    animation-name: slideFromLeft;
+    animation-duration: 2s;
+}
+
 .section-one .wrapper h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2rem;
@@ -38,7 +47,9 @@ body {
 
 .section-one .wrapper .arrow {
     width: 30vw;
-    margin: 35px auto;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
     display: block;
 }
 
@@ -131,6 +142,23 @@ body {
     margin-bottom: 30px;
     color: white;
 }
+
+.section-three .wrapper form input {
+    background-color: #fdcb9e;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #3f3f44;
+    margin-top: 30px;
+    padding: 2px 4px;
+}
+
+.section-three .wrapper form input:hover {
+    background-color: #fab172;
+}
+
 
 .section-three img {
     height: 30%;
@@ -280,7 +308,8 @@ body {
 
     .section-one .wrapper .arrow {
         width: 130px;
-        
+        margin-top: 85px;
+        margin-bottom: 30px;
     }
 
     /* Section Two */
@@ -320,10 +349,13 @@ body {
 
     /* Section Three */
     .section-three {
-        
+        height: auto;
+        min-height: fit-content;
     }
 
     .section-three .wrapper {
+        height: auto;
+        padding: 17vh;
         
     }
 
@@ -338,12 +370,16 @@ body {
     }
 
     .section-three img {
-        height: 50%;
+        height: 35%;
         width: 100%;
         object-fit: cover;
-        object-position: top;
+        object-position: bottom;
         position: absolute;
         bottom: 0;
+        display: none;
+    }
+    #large-img {
+        display: none;
     }
 }
 

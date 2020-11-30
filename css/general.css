@@ -71,3 +71,18 @@ a:hover {
     50% {opacity: 1;}
     100% {opacity: 0.3;}
 }
+
+@keyframes slideFromLeft {
+    0% {position: relative; opacity:0;}
+    100% {position: relative; opacity: 1;}
+}
+
+/* Media Queries */
+@media screen and (min-width: 800px) {
+    nav ul li {
+        font-size: 1.2rem;
+    }
+    nav img {
+        height: 150%;
+    }
+}
