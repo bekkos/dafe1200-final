@@ -135,3 +135,198 @@ body {
     bottom: 0;
 }
 
+
+
+@media screen and (min-width: 500px) {
+    /* Section One */
+    .section-one {
+
+    }
+
+    .section-one .wrapper {
+        
+    }
+
+    .section-one .wrapper img {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    .section-one .wrapper .arrow {
+        width: 20vw;
+        
+    }
+
+    /* Section Two */
+
+    .section-two {
+        
+    }
+
+    .section-two .wrapper {
+        
+    }
+
+    .section-two .wrapper .arrow {
+        width: 20vw;
+    }
+
+    /* Section Three */
+    .section-three {
+        
+    }
+
+    .section-three .wrapper {
+        
+    }
+}
+
+@media screen and (min-width: 800px) {
+    /* Section One */
+    .section-one {
+
+    }
+
+    .section-one .wrapper {
+        
+    }
+
+    .section-one .wrapper h1 {
+        font-size: 3rem;
+    }
+
+    .section-one .wrapper img {
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+
+    .section-one .wrapper .arrow {
+        width: 10vw;
+        
+    }
+
+    /* Section Two */
+
+    .section-two {
+        
+    }
+
+    .section-two .wrapper {
+        
+    }
+
+    .section-two .wrapper h2 {
+        font-size: 2.3rem;
+    }
+
+    .section-two .wrapper p {
+        width: 80%;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+
+    .section-two .wrapper .arrow {
+        width: 10vw;
+        left: 45%;
+    }
+
+    /* Section Three */
+    .section-three {
+        
+    }
+
+    .section-three .wrapper {
+        
+    }
+
+    .section-two .wrapper h2 {
+        font-size: 2.3rem;
+    }
+
+    .section-three .wrapper p {
+        width: 80%;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    /* Section One */
+    .section-one {
+
+    }
+
+    .section-one .wrapper {
+        
+    }
+
+    .section-one .wrapper h1 {
+        font-size: 3rem;
+    }
+
+    .section-one .wrapper img {
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+
+    .section-one .wrapper .arrow {
+        width: 10vw;
+        
+    }
+
+    /* Section Two */
+
+    .section-two {
+        
+    }
+
+    .section-two .wrapper {
+        
+    }
+
+    .section-two .wrapper h2 {
+        font-size: 2.3rem;
+    }
+
+    .section-two .wrapper p {
+        width: 80%;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+
+    .section-two .wrapper .arrow {
+        width: 10vw;
+        left: 45%;
+    }
+
+    /* Section Three */
+    .section-three {
+        
+    }
+
+    .section-three .wrapper {
+        
+    }
+
+    .section-two .wrapper h2 {
+        font-size: 2.3rem;
+    }
+
+    .section-three .wrapper p {
+        width: 80%;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+
+    .section-three img {
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+        position: absolute;
+        bottom: 0;
+    }
+}
