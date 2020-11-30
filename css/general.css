@@ -49,6 +49,7 @@ nav ul li {
     display: inline;
     margin: 0 10px;
     font-weight:500;
+    font-size: 0.9rem;
     color: black;
     font-family: 'Josefin Sans', sans-serif;
 }

@@ -19,16 +19,16 @@ body {
 }
 
 .section-one .wrapper img {
-    width: 100%;
+    width: 90%;
 }
 
 .section-one .wrapper h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 300;
     text-align: center;
     margin-bottom: 30px;
-    line-height: 50px;
+    line-height: 30px;
     color: white;
 }
 
@@ -40,8 +40,8 @@ body {
 
 .section-two {
     width: 100%;
-    height: 80%;
-    padding-top: 50px;
+    height: 100%;
+    padding-top: 35px;
     background-color: #36454F;
     position: relative;
 }
@@ -79,14 +79,14 @@ body {
     width: 30%;
     z-index: 2;
     position: relative;
-    margin-top: 330px;
+    margin-top: 220px;
 }
 
 .section-two img {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 80%;
+    width: 60%;
     z-index: 1;
 }
 
@@ -128,7 +128,10 @@ body {
 }
 
 .section-three img {
+    height: 30%;
     width: 100%;
+    object-fit: cover;
+    object-position: top;
     position: absolute;
     bottom: 0;
 }
