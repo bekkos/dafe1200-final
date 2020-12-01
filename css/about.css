@@ -204,9 +204,16 @@ body {
 screens*/
 @media screen and (min-height: 500px) {
     .section-three img {
+        bottom: -120px;
+    }
+}
+
+@media screen and (min-height: 600px) {
+    .section-three img {
         bottom: -70px;
     }
 }
+
 
 /*
 Query for iPad and iPad Pro which wont work with regular
@@ -501,6 +508,10 @@ width checks for some reason -m
 
 /* Only for IE */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .section-one .wrapper {
+        margin: 0;
+    }
+    
     .section-two {
         height: auto;
         min-height: auto;

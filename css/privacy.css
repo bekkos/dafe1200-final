@@ -205,6 +205,12 @@ body {
 screens*/
 @media screen and (min-height: 500px) {
     .section-three img {
+        bottom: -120px;
+    }
+}
+
+@media screen and (min-height: 600px) {
+    .section-three img {
         bottom: -70px;
     }
 }
