@@ -1,7 +1,0 @@
-- Sources side med gruppemedlemmer og 
-alle kilder etc.
-
-
-En app hvor brukeren kan måle antall plast
-per kvadratmeter på en strand/kystlinje og
-så vil appen bruke
