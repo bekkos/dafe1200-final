@@ -25,7 +25,19 @@ body {
     padding-top: 17vh;
 }
 
+.section-one .wrapper ul {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    list-style-type: none;
+}
 
+.section-one .wrapper ul li {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin: 2vh 0;
+}
 
 .section-one .wrapper form {
     width: 90%;
@@ -416,6 +428,11 @@ width checks for some reason -m
 
     .section-one .wrapper {
         
+    }
+
+    .section-one .wrapper ul {
+        width: 50%;
+        margin: auto;
     }
 
     .section-one .wrapper h1 {

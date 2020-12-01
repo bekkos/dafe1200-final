@@ -34,6 +34,7 @@ body {
 .section-one .wrapper form input, .section-one .wrapper form textarea {
     width: 95%;
     max-width: 570px;
+    min-height: 41px;
     height: 3vh;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
@@ -197,7 +198,92 @@ body {
     bottom: 0;
 }
 
+/*Query for dealing with image overlap on short 
+screens*/
+@media screen and (min-height: 500px) {
+    .section-three img {
+        bottom: -70px;
+    }
+}
 
+/*
+Query for iPad and iPad Pro which wont work with regular
+width checks for some reason -m
+*/
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+    html {
+        font-size: 26px;
+    }
+    
+    .section-one .wrapper {
+        width: 80% !important;
+    }
+    .section-one .wrapper h1{
+        width: 100% !important;
+    }
+    .section-one .wrapper img{
+        width: 60% !important;
+    }
+    .section-one .wrapper .arrow{
+        width: 260px !important;
+    }
+
+    .section-two .wrapper {
+        width: 80% !important;
+    }
+    .section-two .wrapper p{
+        width: 100% !important;
+    }
+    .section-two .wrapper .arrow{
+        width: 260px !important;
+    }
+
+    .section-three .wrapper {
+        width: 80% !important;
+        padding: 17vh 0 !important;
+    }
+    .section-three .wrapper p{
+        width: 100% !important;
+    }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    html {
+        font-size: 26px;
+    }
+    
+    .section-one .wrapper {
+        width: 80% !important;
+    }
+    .section-one .wrapper h1{
+        width: 100% !important;
+    }
+    .section-one .wrapper img{
+        width: 60% !important;
+    }
+    .section-one .wrapper .arrow{
+        width: 130px !important;
+    }
+
+    .section-two .wrapper {
+        width: 80% !important;
+    }
+    .section-two .wrapper p{
+        width: 100% !important;
+    }
+    .section-two .wrapper .arrow{
+        width: 130px !important;
+    }
+
+    .section-three .wrapper {
+        width: 80% !important;
+        padding: 17vh 0 !important;
+    }
+    .section-three .wrapper p{
+        width: 100% !important;
+    }
+    
+}
 
 @media screen and (min-width: 500px) {
     /* Section One */
